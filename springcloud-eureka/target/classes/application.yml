@@ -6,6 +6,8 @@ spring:
     name: SpringCloud-Eureka-Server
 
 eureka:
+  instance:
+    prefer-ip-address: true
   client:
     # 注册自身到eureka服务器
     register-with-eureka: false
