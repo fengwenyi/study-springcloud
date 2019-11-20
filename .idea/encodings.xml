@@ -7,5 +7,6 @@
     <file url="file://$PROJECT_DIR$/springcloud-eureka" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springcloud-gateway" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springcloud-modules" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcloud-modules/springcloud-module-user" charset="UTF-8" />
   </component>
 </project>

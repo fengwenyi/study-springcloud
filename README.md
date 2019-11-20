@@ -11,17 +11,20 @@
 
 ```
 study-springcloud
-├── README.md            // 说明
-├── pom.xml              // 项目依赖
-├── springcloud-config   // 配置中心
-├── springcloud-eureka   // 服务注册中心
-├── springcloud-gateway  // 网关
-└── springcloud-modules  // 模块
+├── README.md                       // 说明
+├── pom.xml                         // 项目依赖
+├── springcloud-config              // 配置中心
+├── springcloud-eureka              // 服务注册中心
+├── springcloud-gateway             // 网关
+└── springcloud-modules             // 模块
+    └── springcloud-module-user     // 用户模块
 ```
 
 ## 服务注册中心
 
 #### Spring Cloud Eureka
+
+`服务端`
 
 依赖：
 
@@ -59,12 +62,38 @@ eureka.instance.ip-address和eureka.instance.prefer-ip-address = true同时设�
 
 答案是听eureka.instance.ip-address的
 
+`客户端`
+
+依赖：
+
+```
+<!-- eureka 客户端 -->
+<dependency>
+    <groupId>org.springframework.cloud</groupId>
+    <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
+</dependency>
+```
+
+配置：
+
+```yaml
+# Eureka
+eureka:
+  instance:
+    prefer-ip-address: true
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+```
 
 #### Zookeeper
+
 
 ## 配置中心
 
 #### 服务
+
+`服务端`
 
 依赖：
 
@@ -94,6 +123,48 @@ spring:
       server:
         native:
           search-locations: classpath:/config/
+```
+
+`客户端`
+
+依赖：
+
+```
+<!-- 配置 客户端 -->
+<dependency>
+    <groupId>org.springframework.cloud</groupId>
+    <artifactId>spring-cloud-starter-config</artifactId>
+</dependency>
+
+<dependency>
+    <groupId>org.springframework.cloud</groupId>
+    <artifactId>spring-cloud-starter-netflix-hystrix</artifactId>
+</dependency>
+```
+
+配置：
+
+```yaml
+spring:
+  application:
+    name: SpringCloud-Module-User
+
+  profiles:
+    active: dev
+
+  # 配置中心
+  cloud:
+    config:
+      fail-fast: true
+      label: user
+      name: ${spring.application.name}
+      profile: ${spring.profiles.active}
+      # 配discovery，可以不用配 uri
+#      uri: http://localhost:9901
+      send-state: true
+      discovery:
+        enabled: true
+        service-id: SpringCloud-Config-Server
 ```
 
 #### Git

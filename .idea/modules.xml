@@ -6,6 +6,7 @@
       <module fileurl="file://$PROJECT_DIR$/springcloud-config/springcloud-config.iml" filepath="$PROJECT_DIR$/springcloud-config/springcloud-config.iml" />
       <module fileurl="file://$PROJECT_DIR$/springcloud-eureka/springcloud-eureka.iml" filepath="$PROJECT_DIR$/springcloud-eureka/springcloud-eureka.iml" />
       <module fileurl="file://$PROJECT_DIR$/springcloud-gateway/springcloud-gateway.iml" filepath="$PROJECT_DIR$/springcloud-gateway/springcloud-gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud-modules/springcloud-module-user/springcloud-module-user.iml" filepath="$PROJECT_DIR$/springcloud-modules/springcloud-module-user/springcloud-module-user.iml" />
       <module fileurl="file://$PROJECT_DIR$/springcloud-modules/springcloud-modules.iml" filepath="$PROJECT_DIR$/springcloud-modules/springcloud-modules.iml" />
       <module fileurl="file://$PROJECT_DIR$/study-springcloud.iml" filepath="$PROJECT_DIR$/study-springcloud.iml" />
     </modules>
