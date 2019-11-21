@@ -2,24 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b67b0f72-7eda-4d1f-8a69-2a9a07313a02" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_config_2_2_0_RC2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-config/src/main/resources/banner.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-config/src/main/resources/config/user/application-dev.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-config/src/main/resources/config/user/application-prod.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-config/src/main/resources/config/user/application-test.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-eureka/src/main/resources/banner.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-modules/springcloud-module-user/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-modules/springcloud-module-user/springcloud-module-user.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-modules/springcloud-module-user/src/main/java/com/fengwenyi/springcloud_module_user/SpringCloudModuleUserApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-modules/springcloud-module-user/src/main/resources/banner.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-modules/springcloud-module-user/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-modules/springcloud-module-order/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-modules/springcloud-module-order/src/main/java/com/fengwenyi/springcloud_module_order/SpringCloudModuleOrderApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-modules/springcloud-module-order/src/main/resources/banner.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-modules/springcloud-module-order/src/main/resources/bootstrap.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcloud-config/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-config/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcloud-eureka/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-eureka/target/classes/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/springcloud-modules/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-modules/pom.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -56,9 +46,12 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/springcloud-config/src/main/resources/config/user" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/springcloud-modules/springcloud-module-order/src/main/resources" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="copyright" />
   </component>
   <component name="RecentsManager">
@@ -146,7 +139,8 @@
       <workItem from="1573832690147" duration="1544000" />
       <workItem from="1573834272863" duration="1058000" />
       <workItem from="1574126498222" duration="2590000" />
-      <workItem from="1574212255863" duration="4265000" />
+      <workItem from="1574212255863" duration="4358000" />
+      <workItem from="1574322876998" duration="287000" />
     </task>
     <servers />
   </component>

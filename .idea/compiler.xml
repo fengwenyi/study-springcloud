@@ -6,11 +6,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="springcloud-common" />
-        <module name="springcloud-eureka" />
-        <module name="springcloud-module-user" />
         <module name="springcloud-config" />
+        <module name="springcloud-eureka" />
         <module name="springcloud-gateway" />
+        <module name="springcloud-common" />
+        <module name="springcloud-module-order" />
+        <module name="springcloud-module-user" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -18,6 +19,7 @@
       <module name="springcloud-config" target="1.8" />
       <module name="springcloud-eureka" target="1.8" />
       <module name="springcloud-gateway" target="1.8" />
+      <module name="springcloud-module-order" target="1.8" />
       <module name="springcloud-module-user" target="1.8" />
       <module name="springcloud-modules" target="1.8" />
       <module name="study-springcloud" target="1.8" />
@@ -29,6 +31,7 @@
       <module name="springcloud-config" options="-parameters" />
       <module name="springcloud-eureka" options="-parameters" />
       <module name="springcloud-gateway" options="-parameters" />
+      <module name="springcloud-module-order" options="-parameters" />
       <module name="springcloud-module-user" options="-parameters" />
       <module name="springcloud-modules" options="-parameters" />
     </option>

@@ -1,0 +1,42 @@
+server:
+  port: 9903
+
+
+spring:
+  application:
+    name: SpringCloud-Module-Order
+
+  profiles:
+    active: dev
+
+  jackson:
+    time-zone: GMT+8
+    date-format: yyyy-MM-dd HH:mm:ss
+
+  # 配置中心
+  cloud:
+    config:
+      fail-fast: true
+      label: order
+      name: ${spring.application.name}
+      profile: ${spring.profiles.active}
+      send-state: true
+      discovery:
+        enabled: true
+        service-id: SpringCloud-Config-Server
+
+
+# Eureka
+eureka:
+  instance:
+    prefer-ip-address: true
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+
+# 暴露监控端点
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
