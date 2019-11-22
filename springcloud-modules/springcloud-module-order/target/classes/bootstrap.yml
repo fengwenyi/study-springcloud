@@ -1,10 +1,10 @@
 server:
-  port: 9902
+  port: 9903
 
 
 spring:
   application:
-    name: SpringCloud-Module-User
+    name: SpringCloud-Module-Order
 
   profiles:
     active: dev
@@ -17,11 +17,9 @@ spring:
   cloud:
     config:
       fail-fast: true
-      label: user
+      label: order
       name: ${spring.application.name}
       profile: ${spring.profiles.active}
-      # 配discovery，可以不用配 uri
-#      uri: http://localhost:9901
       send-state: true
       discovery:
         enabled: true

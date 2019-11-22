@@ -9,6 +9,7 @@
         <module>springcloud-gateway</module>
         <module>springcloud-modules</module>
         <module>springcloud-common</module>
+        <module>springcloud-service-api</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>

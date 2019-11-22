@@ -2,15 +2,36 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b67b0f72-7eda-4d1f-8a69-2a9a07313a02" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/springcloud-modules/springcloud-module-order/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-modules/springcloud-module-order/src/main/java/com/fengwenyi/springcloud_module_order/SpringCloudModuleOrderApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-modules/springcloud-module-order/src/main/resources/banner.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-modules/springcloud-module-order/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_fileupload_commons_fileupload_1_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_feign_core_10_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_feign_hystrix_10_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_feign_slf4j_10_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_form_feign_form_3_8_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_form_feign_form_spring_3_8_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_openfeign_core_2_2_0_RC2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_openfeign_2_2_0_RC2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-common/springcloud-common-model/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-common/springcloud-common-model/springcloud-common-model.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-common/springcloud-common-model/src/main/java/com/fengwenyi/springcloud_common_model/UserModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-modules/springcloud-module-order/src/main/java/com/fengwenyi/springcloud_module_order/api/ApiUserClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-modules/springcloud-module-order/src/main/java/com/fengwenyi/springcloud_module_order/controller/TestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-modules/springcloud-module-user/src/main/java/com/fengwenyi/springcloud_module_user/controller/ServiceUserApiController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-service-api/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-service-api/springcloud-service-api.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-service-api/src/main/java/com/fengwenyi/springcloud_service_api/ServiceUserApi.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcloud-modules/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-modules/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-common/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-modules/springcloud-module-order/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-modules/springcloud-module-order/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-modules/springcloud-module-order/springcloud-module-order.iml" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-modules/springcloud-module-order/springcloud-module-order.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-modules/springcloud-module-order/src/main/java/com/fengwenyi/springcloud_module_order/SpringCloudModuleOrderApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-modules/springcloud-module-order/src/main/java/com/fengwenyi/springcloud_module_order/SpringCloudModuleOrderApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-modules/springcloud-module-user/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-modules/springcloud-module-user/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-modules/springcloud-module-user/springcloud-module-user.iml" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-modules/springcloud-module-user/springcloud-module-user.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-modules/springcloud-module-user/target/classes/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-modules/springcloud-module-user/target/classes/bootstrap.yml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -22,6 +43,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -55,14 +77,15 @@
     <property name="settings.editor.selected.configurable" value="copyright" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/springcloud-config/src/main/resources/config/user" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/springcloud-modules/springcloud-module-order/src/main/resources" />
       <recent name="$PROJECT_DIR$/springcloud-config/src/main/resources/config/user" />
       <recent name="$PROJECT_DIR$/springcloud-modules/springcloud-module-user/src/main/resources" />
       <recent name="$PROJECT_DIR$/springcloud-config/src/main/resources" />
       <recent name="$PROJECT_DIR$/springcloud-eureka/src/main/resources" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/springcloud-config/src/main/resources/config/user" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -77,7 +100,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.SpringCloudModuleUserApplication">
+  <component name="RunManager" selected="Spring Boot.SpringCloudModuleOrderApplication">
     <configuration name="SpringCloudConfigApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="springcloud-config" />
       <extension name="coverage">
@@ -100,6 +123,13 @@
         </pattern>
       </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.fengwenyi.springcloud_eureka.SpringCloudEurekaApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringCloudModuleOrderApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springcloud-module-order" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.fengwenyi.springcloud_module_order.SpringCloudModuleOrderApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -140,7 +170,9 @@
       <workItem from="1573834272863" duration="1058000" />
       <workItem from="1574126498222" duration="2590000" />
       <workItem from="1574212255863" duration="4358000" />
-      <workItem from="1574322876998" duration="287000" />
+      <workItem from="1574322876998" duration="500000" />
+      <workItem from="1574392762783" duration="369000" />
+      <workItem from="1574393284675" duration="1411000" />
     </task>
     <servers />
   </component>

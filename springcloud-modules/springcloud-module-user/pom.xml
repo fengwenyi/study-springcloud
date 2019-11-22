@@ -28,6 +28,13 @@
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-netflix-hystrix</artifactId>
         </dependency>
+
+        <!-- service api -->
+        <dependency>
+            <groupId>com.fengwenyi</groupId>
+            <artifactId>springcloud-service-api</artifactId>
+            <version>1.0.0</version>
+        </dependency>
     </dependencies>
 
 </project>

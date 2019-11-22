@@ -8,32 +8,37 @@
         <outputRelativeToContentRoot value="true" />
         <module name="springcloud-config" />
         <module name="springcloud-eureka" />
+        <module name="springcloud-common-model" />
         <module name="springcloud-gateway" />
-        <module name="springcloud-common" />
         <module name="springcloud-module-order" />
+        <module name="springcloud-service-api" />
         <module name="springcloud-module-user" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="springcloud-common" target="1.8" />
+      <module name="springcloud-common-model" target="1.8" />
       <module name="springcloud-config" target="1.8" />
       <module name="springcloud-eureka" target="1.8" />
       <module name="springcloud-gateway" target="1.8" />
       <module name="springcloud-module-order" target="1.8" />
       <module name="springcloud-module-user" target="1.8" />
       <module name="springcloud-modules" target="1.8" />
+      <module name="springcloud-service-api" target="1.8" />
       <module name="study-springcloud" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="springcloud-common" options="-parameters" />
+      <module name="springcloud-common-model" options="-parameters" />
       <module name="springcloud-config" options="-parameters" />
       <module name="springcloud-eureka" options="-parameters" />
       <module name="springcloud-gateway" options="-parameters" />
       <module name="springcloud-module-order" options="-parameters" />
       <module name="springcloud-module-user" options="-parameters" />
       <module name="springcloud-modules" options="-parameters" />
+      <module name="springcloud-service-api" options="-parameters" />
     </option>
   </component>
 </project>

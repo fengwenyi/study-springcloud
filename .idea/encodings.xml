@@ -3,11 +3,13 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springcloud-common" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcloud-common/springcloud-common-model" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springcloud-config" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springcloud-eureka" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springcloud-gateway" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springcloud-modules" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springcloud-modules/springcloud-module-order" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springcloud-modules/springcloud-module-user" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcloud-service-api" charset="UTF-8" />
   </component>
 </project>
