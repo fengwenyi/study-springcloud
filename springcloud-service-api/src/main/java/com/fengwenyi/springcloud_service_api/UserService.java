@@ -9,7 +9,7 @@ import java.util.List;
  * @author Erwin Feng[xfsy_2015@163.com]
  * @since 2019/11/22 11:32
  */
-public interface ServiceUserApi {
+public interface UserService {
 
     @GetMapping("/users")
     List<UserModel> getUsers();

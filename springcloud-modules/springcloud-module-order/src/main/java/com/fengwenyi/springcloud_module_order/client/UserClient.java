@@ -1,6 +1,6 @@
-package com.fengwenyi.springcloud_module_order.api;
+package com.fengwenyi.springcloud_module_order.client;
 
-import com.fengwenyi.springcloud_service_api.ServiceUserApi;
+import com.fengwenyi.springcloud_service_api.UserService;
 import org.springframework.cloud.openfeign.FeignClient;
 
 /**
@@ -8,5 +8,5 @@ import org.springframework.cloud.openfeign.FeignClient;
  * @since 2019/11/22 13:33
  */
 @FeignClient("SpringCloud-Module-User")
-public interface ApiUserClient extends ServiceUserApi {
+public interface UserClient extends UserService {
 }

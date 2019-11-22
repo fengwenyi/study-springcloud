@@ -1,7 +1,7 @@
-package com.fengwenyi.springcloud_module_user.controller;
+package com.fengwenyi.springcloud_module_user.resource;
 
 import com.fengwenyi.springcloud_common_model.UserModel;
-import com.fengwenyi.springcloud_service_api.ServiceUserApi;
+import com.fengwenyi.springcloud_service_api.UserService;
 import org.springframework.web.bind.annotation.RestController;
 import java.util.Collections;
 import java.util.List;
@@ -11,7 +11,7 @@ import java.util.List;
  * @since 2019/11/22 11:35
  */
 @RestController
-public class ServiceUserApiController implements ServiceUserApi {
+public class UserResource implements UserService {
     @Override
     public List<UserModel> getUsers() {
         return Collections.singletonList(

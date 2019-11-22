@@ -1,8 +1,7 @@
 package com.fengwenyi.springcloud_module_order.controller;
 
 import com.fengwenyi.springcloud_common_model.UserModel;
-import com.fengwenyi.springcloud_module_order.api.ApiUserClient;
-import com.fengwenyi.springcloud_service_api.ServiceUserApi;
+import com.fengwenyi.springcloud_module_order.client.UserClient;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -19,10 +18,10 @@ import java.util.List;
 public class TestController {
 
     @Autowired
-    private ApiUserClient apiUserClient;
+    private UserClient userClient;
 
     @GetMapping("/users")
     public List<UserModel> getUsers() {
-        return apiUserClient.getUsers();
+        return userClient.getUsers();
     }
 }
