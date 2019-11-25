@@ -2,7 +2,33 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b67b0f72-7eda-4d1f-8a69-2a9a07313a02" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/springcloud-config/src/main/resources/config/gateway/application-dev.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-gateway/src/main/java/com/fengwenyi/study_springcloud_gateway/SpringCloudGatewayApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-gateway/src/main/java/com/fengwenyi/study_springcloud_gateway/config/CorsConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-gateway/src/main/resources/banner.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-gateway/src/main/resources/bootstrap.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-common/springcloud-common-model/springcloud-common-model.iml" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-common/springcloud-common-model/springcloud-common-model.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-common/springcloud-common.iml" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-common/springcloud-common.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-config/springcloud-config.iml" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-config/springcloud-config.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-eureka/springcloud-eureka.iml" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-eureka/springcloud-eureka.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-gateway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-gateway/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-gateway/springcloud-gateway.iml" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-gateway/springcloud-gateway.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-modules/springcloud-module-order/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-modules/springcloud-module-order/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-modules/springcloud-module-order/springcloud-module-order.iml" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-modules/springcloud-module-order/springcloud-module-order.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-modules/springcloud-module-order/src/main/java/com/fengwenyi/springcloud_module_order/controller/TestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-modules/springcloud-module-order/src/main/java/com/fengwenyi/springcloud_module_order/controller/TestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-modules/springcloud-module-order/target/classes/com/fengwenyi/springcloud_module_order/api/ApiUserClient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-modules/springcloud-module-order/target/classes/com/fengwenyi/springcloud_module_order/controller/TestController.class" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-modules/springcloud-module-order/target/classes/com/fengwenyi/springcloud_module_order/controller/TestController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-modules/springcloud-module-user/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-modules/springcloud-module-user/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-modules/springcloud-module-user/springcloud-module-user.iml" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-modules/springcloud-module-user/springcloud-module-user.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-modules/springcloud-module-user/target/classes/com/fengwenyi/springcloud_module_user/controller/ServiceUserApiController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-modules/springcloud-modules.iml" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-modules/springcloud-modules.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-service-api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-service-api/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-service-api/springcloud-service-api.iml" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-service-api/springcloud-service-api.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-service-api/target/classes/com/fengwenyi/springcloud_service_api/ServiceUserApi.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/study-springcloud.iml" beforeDir="false" afterPath="$PROJECT_DIR$/study-springcloud.iml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,8 +39,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -39,7 +65,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/springcloud-modules/springcloud-module-order/src/main/resources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/springcloud-gateway/src/main/resources" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -48,15 +74,15 @@
     <property name="settings.editor.selected.configurable" value="copyright" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/springcloud-config/src/main/resources/config/user" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/springcloud-gateway/src/main/resources" />
       <recent name="$PROJECT_DIR$/springcloud-modules/springcloud-module-order/src/main/resources" />
       <recent name="$PROJECT_DIR$/springcloud-config/src/main/resources/config/user" />
       <recent name="$PROJECT_DIR$/springcloud-modules/springcloud-module-user/src/main/resources" />
       <recent name="$PROJECT_DIR$/springcloud-config/src/main/resources" />
-      <recent name="$PROJECT_DIR$/springcloud-eureka/src/main/resources" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/springcloud-config/src/main/resources/config/user" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -98,6 +124,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SpringCloudGatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="springcloud-gateway" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.fengwenyi.study_springcloud_gateway.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.fengwenyi.study_springcloud_gateway.SpringCloudGatewayApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SpringCloudModuleOrderApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="springcloud-module-order" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.fengwenyi.springcloud_module_order.SpringCloudModuleOrderApplication" />
@@ -120,8 +159,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.SpringCloudModuleUserApplication" />
+        <item itemvalue="Spring Boot.SpringCloudGatewayApplication" />
         <item itemvalue="Spring Boot.SpringCloudConfigApplication" />
+        <item itemvalue="Spring Boot.SpringCloudModuleUserApplication" />
         <item itemvalue="Spring Boot.SpringCloudEurekaApplication" />
       </list>
     </recent_temporary>
@@ -143,7 +183,8 @@
       <workItem from="1574212255863" duration="4358000" />
       <workItem from="1574322876998" duration="500000" />
       <workItem from="1574392762783" duration="369000" />
-      <workItem from="1574393284675" duration="2724000" />
+      <workItem from="1574393284675" duration="3338000" />
+      <workItem from="1574654961437" duration="3632000" />
     </task>
     <servers />
   </component>

@@ -172,3 +172,137 @@ spring:
 #### Zookeeper
 
 #### Consul
+
+##  网关
+
+依赖：
+
+```
+<dependency>
+    <groupId>org.springframework.cloud</groupId>
+    <artifactId>spring-cloud-starter-gateway</artifactId>
+</dependency>
+```
+
+配置：
+
+```yaml
+spring:
+  main:
+    allow-bean-definition-overriding: true
+  cloud:        # spring cloud gateway 路由配置方式
+    gateway:
+      discovery:      #是否与服务发现组件进行结合，通过 serviceId(必须设置成大写) 转发到具体的服务实例。默认为false，设为true便开启通过服务中心的自动根据 serviceId 创建路由的功能。
+        locator:      #路由访问方式：http://Gateway_HOST:Gateway_PORT/大写的serviceId/**，其中微服务应用名默认大写访问。
+          enabled: true
+          lowerCaseServiceId: true
+      routes:
+        -  id: SpringCloud-Module-Order                     #网关路由到订单
+           uri: lb://SpringCloud-Module-Order
+           predicates:
+             - Path=/order/**
+```
+
+#### 通过时间匹配
+
+```yaml
+spring:
+  cloud:
+    gateway:
+      routes:
+       - id: time_route
+        uri: http://ityouknow.com
+        predicates:
+         - After=2018-01-20T06:06:06+08:00[Asia/Shanghai]
+```
+
+#### 通过 Cookie 匹配
+
+```yaml
+spring:
+  cloud:
+    gateway:
+      routes:
+         - id: cookie_route
+              uri: http://ityouknow.com
+              predicates:
+              - Cookie=ityouknow, kee.e
+```
+
+#### 通过 Header 属性匹配
+
+```yaml
+spring:
+  cloud:
+    gateway:
+      routes:
+      - id: header_route
+        uri: http://ityouknow.com
+        predicates:
+        - Header=X-Request-Id, \d+
+```
+
+#### 通过 Host 匹配
+
+```yaml
+spring:
+  cloud:
+    gateway:
+      routes:
+      - id: host_route
+        uri: http://ityouknow.com
+        predicates:
+        - Host=**.ityouknow.com
+```
+
+#### 通过请求方式匹配
+
+```yaml
+spring:
+  cloud:
+    gateway:
+      routes:
+      - id: method_route
+        uri: http://ityouknow.com
+        predicates:
+        - Method=GET
+```
+
+#### 通过请求路径匹配
+
+```yaml
+spring:
+  cloud:
+    gateway:
+      routes:
+      - id: host_route
+        uri: http://ityouknow.com
+        predicates:
+        - Path=/foo/{segment}
+```
+
+#### 通过请求参数匹配
+
+```yaml
+spring:
+  cloud:
+    gateway:
+      routes:
+      - id: query_route
+        uri: http://ityouknow.com
+        predicates:
+        - Query=smile
+```
+
+#### 通过请求 ip 地址进行匹配
+
+```yaml
+spring:
+  cloud:
+    gateway:
+      routes:
+      - id: remoteaddr_route
+        uri: http://ityouknow.com
+        predicates:
+        - RemoteAddr=192.168.1.1/24
+```
