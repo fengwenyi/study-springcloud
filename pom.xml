@@ -10,6 +10,7 @@
         <module>springcloud-modules</module>
         <module>springcloud-common</module>
         <module>springcloud-service-api</module>
+        <module>springcloud-admin</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
