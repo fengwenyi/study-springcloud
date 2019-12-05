@@ -10,12 +10,14 @@
         <module name="springcloud-eureka" />
         <module name="springcloud-common-model" />
         <module name="springcloud-gateway" />
+        <module name="springcloud-admin" />
         <module name="springcloud-module-order" />
         <module name="springcloud-service-api" />
         <module name="springcloud-module-user" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="springcloud-admin" target="1.8" />
       <module name="springcloud-common" target="1.8" />
       <module name="springcloud-common-model" target="1.8" />
       <module name="springcloud-config" target="1.8" />
@@ -30,6 +32,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="springcloud-admin" options="-parameters" />
       <module name="springcloud-common" options="-parameters" />
       <module name="springcloud-common-model" options="-parameters" />
       <module name="springcloud-config" options="-parameters" />

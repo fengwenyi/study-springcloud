@@ -2,35 +2,40 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b67b0f72-7eda-4d1f-8a69-2a9a07313a02" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/springcloud-config/src/main/resources/config/gateway/application-dev.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-gateway/src/main/java/com/fengwenyi/study_springcloud_gateway/SpringCloudGatewayApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-gateway/src/main/java/com/fengwenyi/study_springcloud_gateway/config/CorsConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-gateway/src/main/resources/banner.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-gateway/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_commons_2_2_0_RC2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_config_client_2_2_0_RC2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_config_server_2_2_0_RC2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_context_2_2_0_RC2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_gateway_core_2_2_0_RC2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_loadbalancer_2_2_0_RC2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_archaius_2_2_0_RC2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_eureka_client_2_2_0_RC2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_eureka_server_2_2_0_RC2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_hystrix_2_2_0_RC2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_ribbon_2_2_0_RC2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_openfeign_core_2_2_0_RC2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_2_2_0_RC2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_config_2_2_0_RC2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_gateway_2_2_0_RC2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_loadbalancer_2_2_0_RC2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_archaius_2_2_0_RC2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_eureka_client_2_2_0_RC2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_eureka_server_2_2_0_RC2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_hystrix_2_2_0_RC2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_ribbon_2_2_0_RC2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_openfeign_2_2_0_RC2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcloud-common/springcloud-common-model/springcloud-common-model.iml" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-common/springcloud-common-model/springcloud-common-model.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcloud-common/springcloud-common.iml" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-common/springcloud-common.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-admin/springcloud-admin.iml" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-admin/springcloud-admin.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/springcloud-config/springcloud-config.iml" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-config/springcloud-config.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/springcloud-eureka/springcloud-eureka.iml" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-eureka/springcloud-eureka.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcloud-gateway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-gateway/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/springcloud-gateway/springcloud-gateway.iml" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-gateway/springcloud-gateway.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcloud-modules/springcloud-module-order/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-modules/springcloud-module-order/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/springcloud-modules/springcloud-module-order/springcloud-module-order.iml" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-modules/springcloud-module-order/springcloud-module-order.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcloud-modules/springcloud-module-order/src/main/java/com/fengwenyi/springcloud_module_order/controller/TestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-modules/springcloud-module-order/src/main/java/com/fengwenyi/springcloud_module_order/controller/TestController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcloud-modules/springcloud-module-order/target/classes/com/fengwenyi/springcloud_module_order/api/ApiUserClient.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcloud-modules/springcloud-module-order/target/classes/com/fengwenyi/springcloud_module_order/controller/TestController.class" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-modules/springcloud-module-order/target/classes/com/fengwenyi/springcloud_module_order/controller/TestController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcloud-modules/springcloud-module-user/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-modules/springcloud-module-user/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/springcloud-modules/springcloud-module-user/springcloud-module-user.iml" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-modules/springcloud-module-user/springcloud-module-user.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcloud-modules/springcloud-module-user/target/classes/com/fengwenyi/springcloud_module_user/controller/ServiceUserApiController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcloud-modules/springcloud-modules.iml" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-modules/springcloud-modules.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcloud-service-api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-service-api/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcloud-service-api/springcloud-service-api.iml" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-service-api/springcloud-service-api.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcloud-service-api/target/classes/com/fengwenyi/springcloud_service_api/ServiceUserApi.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/study-springcloud.iml" beforeDir="false" afterPath="$PROJECT_DIR$/study-springcloud.iml" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -50,54 +55,60 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="mavenHome" value="$USER_HOME$/Maven/apache-maven-3.6.0" />
         <option name="userSettingsFile" value="$USER_HOME$/Maven/apache-maven-3.6.0/conf/settings.xml" />
       </MavenGeneralSettings>
     </option>
   </component>
   <component name="ProjectId" id="1Te4lKDZ0yHyiU8LgQUalyLQ4cz" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/springcloud-gateway/src/main/resources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/springcloud-admin/src/main/resources" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="copyright" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/springcloud-config/src/main/resources/config/user" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/springcloud-admin/src/main/resources" />
       <recent name="$PROJECT_DIR$/springcloud-gateway/src/main/resources" />
       <recent name="$PROJECT_DIR$/springcloud-modules/springcloud-module-order/src/main/resources" />
       <recent name="$PROJECT_DIR$/springcloud-config/src/main/resources/config/user" />
       <recent name="$PROJECT_DIR$/springcloud-modules/springcloud-module-user/src/main/resources" />
-      <recent name="$PROJECT_DIR$/springcloud-config/src/main/resources" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/springcloud-config/src/main/resources/config/user" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="Spring Boot.SpringCloudModuleOrderApplication">
+  <component name="RunManager" selected="Spring Boot.SpringCloudAdminApplication">
+    <configuration name="SpringCloudAdminApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="springcloud-admin" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.fengwenyi.study_springcloud_admin.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.fengwenyi.study_springcloud_admin.SpringCloudAdminApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SpringCloudConfigApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="springcloud-config" />
       <extension name="coverage">
@@ -159,12 +170,25 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.SpringCloudGatewayApplication" />
-        <item itemvalue="Spring Boot.SpringCloudConfigApplication" />
+        <item itemvalue="Spring Boot.SpringCloudAdminApplication" />
         <item itemvalue="Spring Boot.SpringCloudModuleUserApplication" />
+        <item itemvalue="Spring Boot.SpringCloudConfigApplication" />
         <item itemvalue="Spring Boot.SpringCloudEurekaApplication" />
+        <item itemvalue="Spring Boot.SpringCloudGatewayApplication" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -184,8 +208,18 @@
       <workItem from="1574322876998" duration="500000" />
       <workItem from="1574392762783" duration="369000" />
       <workItem from="1574393284675" duration="3338000" />
-      <workItem from="1574654961437" duration="3632000" />
+      <workItem from="1574654961437" duration="3730000" />
+      <workItem from="1575248575157" duration="1571000" />
+      <workItem from="1575507336022" duration="260000" />
     </task>
+    <task id="LOCAL-00001" summary="新增 服务监控管理">
+      <created>1575250335739</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1575250335739</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -203,5 +237,59 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="新增 服务监控管理" />
+    <option name="LAST_COMMIT_MESSAGE" value="新增 服务监控管理" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="50" y="37" key="CommitChangelistDialog2" timestamp="1575507603070">
+      <screen x="0" y="23" width="1440" height="826" />
+    </state>
+    <state x="50" y="37" key="CommitChangelistDialog2/0.23.1440.826@0.23.1440.826" timestamp="1575507603070" />
+    <state width="1398" height="329" key="GridCell.Tab.0.bottom" timestamp="1575250352325">
+      <screen x="0" y="23" width="1440" height="826" />
+    </state>
+    <state width="1398" height="329" key="GridCell.Tab.0.bottom/0.23.1440.826@0.23.1440.826" timestamp="1575250352325" />
+    <state width="1398" height="329" key="GridCell.Tab.0.center" timestamp="1575250352325">
+      <screen x="0" y="23" width="1440" height="826" />
+    </state>
+    <state width="1398" height="329" key="GridCell.Tab.0.center/0.23.1440.826@0.23.1440.826" timestamp="1575250352325" />
+    <state width="1398" height="329" key="GridCell.Tab.0.left" timestamp="1575250352324">
+      <screen x="0" y="23" width="1440" height="826" />
+    </state>
+    <state width="1398" height="329" key="GridCell.Tab.0.left/0.23.1440.826@0.23.1440.826" timestamp="1575250352324" />
+    <state width="1398" height="329" key="GridCell.Tab.0.right" timestamp="1575250352325">
+      <screen x="0" y="23" width="1440" height="826" />
+    </state>
+    <state width="1398" height="329" key="GridCell.Tab.0.right/0.23.1440.826@0.23.1440.826" timestamp="1575250352325" />
+    <state width="1398" height="329" key="GridCell.Tab.1.bottom" timestamp="1575250352326">
+      <screen x="0" y="23" width="1440" height="826" />
+    </state>
+    <state width="1398" height="329" key="GridCell.Tab.1.bottom/0.23.1440.826@0.23.1440.826" timestamp="1575250352326" />
+    <state width="1398" height="329" key="GridCell.Tab.1.center" timestamp="1575250352325">
+      <screen x="0" y="23" width="1440" height="826" />
+    </state>
+    <state width="1398" height="329" key="GridCell.Tab.1.center/0.23.1440.826@0.23.1440.826" timestamp="1575250352325" />
+    <state width="1398" height="329" key="GridCell.Tab.1.left" timestamp="1575250352325">
+      <screen x="0" y="23" width="1440" height="826" />
+    </state>
+    <state width="1398" height="329" key="GridCell.Tab.1.left/0.23.1440.826@0.23.1440.826" timestamp="1575250352325" />
+    <state width="1398" height="329" key="GridCell.Tab.1.right" timestamp="1575250352326">
+      <screen x="0" y="23" width="1440" height="826" />
+    </state>
+    <state width="1398" height="329" key="GridCell.Tab.1.right/0.23.1440.826@0.23.1440.826" timestamp="1575250352326" />
+    <state x="221" y="75" key="SettingsEditor" timestamp="1575248632177">
+      <screen x="0" y="23" width="1440" height="826" />
+    </state>
+    <state x="221" y="75" key="SettingsEditor/0.23.1440.826@0.23.1440.826" timestamp="1575248632177" />
+    <state x="320" y="176" key="Vcs.Push.Dialog.v2" timestamp="1575250338170">
+      <screen x="0" y="23" width="1440" height="826" />
+    </state>
+    <state x="320" y="176" key="Vcs.Push.Dialog.v2/0.23.1440.826@0.23.1440.826" timestamp="1575250338170" />
+    <state x="97" y="140" key="new project wizard" timestamp="1575248684469">
+      <screen x="0" y="23" width="1440" height="826" />
+    </state>
+    <state x="97" y="140" key="new project wizard/0.23.1440.826@0.23.1440.826" timestamp="1575248684469" />
   </component>
 </project>
